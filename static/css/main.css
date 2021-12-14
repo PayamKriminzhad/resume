@@ -24,6 +24,7 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;900&display=swap');
 .bootstrap-switch {
   display: inline-block;
@@ -5313,15 +5314,13 @@ a.credit {
   margin-right: 130px;
 }
 [data-aos][data-aos][data-aos-duration='2000'], body[data-aos-duration='2000'] [data-aos] {
-  transition-duration: 0s;
+  transition-duration: 2s;
 }
 .card {
   background-color: white;
 }
 
-.card .card-body div{
-  min-height: 45px;
-}
+
 .form-control{
   height: 60px;
 }

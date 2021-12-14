@@ -12,14 +12,18 @@ class profile(models.Model):
     name = models.CharField(max_length = 50 , null= True)
 
 
-class skills(models.Model):
-    html = models.IntegerField()
-    js = models.IntegerField()
-    css = models.IntegerField()
-    react = models.IntegerField()
-    python = models.IntegerField()
-    django = models.IntegerField()
-    ps = models.IntegerField()
-    bootstrap = models.IntegerField()
+class skill(models.Model):
+    title = models.CharField(max_length = 50)
+    percent = models.IntegerField()
 
-    
+class experience(models.Model):
+    title1 = models.CharField(max_length = 50)
+    title2 = models.CharField(max_length = 50)
+    discribtion = models.CharField(max_length = 200)
+
+
+class education(models.Model):
+    title1 = models.CharField(max_length = 50)
+    title2 = models.CharField(max_length = 50)
+    title3 = models.CharField(max_length = 50)
+    discribtion = models.CharField(max_length = 200)

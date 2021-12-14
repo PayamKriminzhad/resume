@@ -8040,3 +8040,6 @@ a.text-dark:hover {
 .invisible {
     visibility: hidden!important
 }
+.cardltr{
+    direction: ltr !important;
+}
