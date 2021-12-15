@@ -2,8 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.home),
-    
+    path('', views.home),  
 ]
 # pari is gooooood
 # veryyyy veryyyy gooooood
@@ -16,4 +15,4 @@ urlpatterns = [
 
 
 
-#  set is daaas and Jezgale and cude as fuuuuuuck
+#  set is daaas and Jezgale and cute as fuuuuuuck
